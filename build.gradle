@@ -28,7 +28,7 @@ dependencies {
     // prevents version clashes for jackson databind
     compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-scala_2.11', version: jacksonScalaVer
 
-    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.5'
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.3.3'
 }
 
 repositories {
