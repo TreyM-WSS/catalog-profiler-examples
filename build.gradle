@@ -10,7 +10,7 @@ mainClassName = project.hasProperty('jdbc') ? 'com.collibra.catalog.tabularprofi
 
 def jerseyVer = '2.27'
 def slf4jVer = '1.7.25'
-def sparkVer = '2.2.3'
+def sparkVer = '2.3.0'
 def jacksonScalaVer = '2.9.8'
 
 dependencies {
