@@ -8,7 +8,7 @@ targetCompatibility = 1.8
 
 mainClassName = project.hasProperty('jdbc') ? 'com.collibra.catalog.tabularprofiler.Jdbc' : 'com.collibra.catalog.tabularprofiler.Csv'
 
-def jerseyVer = '2.27'
+def jerseyVer = '2.36'
 def slf4jVer = '1.7.25'
 def sparkVer = '2.2.3'
 def jacksonScalaVer = '2.9.8'
